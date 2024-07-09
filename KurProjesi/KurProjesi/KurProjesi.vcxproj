@@ -136,8 +136,8 @@
     <ClInclude Include="KurCarpimINTERFACE.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\Extract-and-process-exchange-rate-information-from-the-file\Doviz kuru cekme ve isleme\Data\AnlikKur.txt" />
-    <Text Include="..\..\..\Extract-and-process-exchange-rate-information-from-the-file\Doviz kuru cekme ve isleme\Data\MerkezBankasi.txt" />
+    <Text Include="AnlikKur.txt" />
+    <Text Include="MerkezBankasi.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

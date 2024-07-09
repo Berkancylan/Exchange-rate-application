@@ -33,7 +33,7 @@ int main(void)
 
 	cout << "Merkez Bankasi(1),AnlikKur(2)" << endl;
 	cin >> secim;
-	filePath = (secim == 1) ? "Data/MerkezBankasi.txt" : "Data/AnlikKur.txt";
+	filePath = (secim == 1) ? "MerkezBankasi.txt" : "AnlikKur.txt";
 
 	KurCarpim KurCarpim;
 	KurCarpim.KurIleMiktarCarpim(filePath, ilkKur, ikinciKur, amount);
